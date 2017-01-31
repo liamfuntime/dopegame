@@ -933,6 +933,26 @@ $("#caseTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#upgradeTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
+    $("#keyTab").removeClass("active");
+    $(".upgradeContainer").hide();
+    $(".jackpotRightContainer").hide();
+    $(".inventoryContainer").hide();
+    $(".caseContainer").show();
+    $(".rightMain").css("bottom","135px");
+    $(".tradeButtonContainer").show();
+    if ($(".unboxing").css('display') !== 'block') {
+      $(".unboxing").show();
+      $(".jackpot").hide();
+    }
+  }
+});
+
+$("#keyTab").click(function() {
+  if ($(".caseContainer").css('display') == 'none') {
+    $(this).toggleClass("active");
+    $("#jackpotTab").removeClass("active");
+    $("#upgradeTab").removeClass("active");
+    $("#inventoryTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
@@ -952,6 +972,7 @@ $("#inventoryTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#upgradeTab").removeClass("active");
     $("#caseTab").removeClass("active");
+    $("#keyTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").show();
@@ -971,6 +992,7 @@ $("#upgradeTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#caseTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
+    $("#keyTab").removeClass("active");
     $(".upgradeContainer").show();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
@@ -992,6 +1014,7 @@ $("#jackpotTab").click(function() {
       $("#upgradeTab").removeClass("active");
       $("#caseTab").removeClass("active");
       $("#inventoryTab").removeClass("active");
+      $("#keyTab").removeClass("active");
       $(".upgradeContainer").hide();
       $(".jackpotRightContainer").show();
       $(".inventoryContainer").hide();
