@@ -963,6 +963,7 @@ $("#keyTab").click(function() {
     $("#jackpotTab").removeClass("active");
     $("#upgradeTab").removeClass("active");
     $("#inventoryTab").removeClass("active");
+    $("#caseTab").removeClass("active");
     $(".upgradeContainer").hide();
     $(".jackpotRightContainer").hide();
     $(".inventoryContainer").hide();
