@@ -961,10 +961,10 @@ $("#keyTab").click(function() {
     $(".caseContainer").show();
     $(".rightMain").css("bottom","135px");
     $(".tradeButtonContainer").show();
-    //if ($(".unboxing").css('display') !== 'block') {
-     // $(".unboxing").show();
-     // $(".jackpot").hide();
-   // }
+    if ($(".unboxing").css('display') !== 'block') {
+      $(".unboxing").show();
+      $(".jackpot").hide();
+    }
   }
 });
 
