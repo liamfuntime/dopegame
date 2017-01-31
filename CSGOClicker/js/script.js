@@ -957,6 +957,27 @@ $("#caseTab").click(function() {
   }
 });
 
+$("#statsTab").click(function() {
+  if ($(".caseContainer").css('display') == 'none') {
+    $(this).toggleClass("active");
+    $("#jackpotTab").removeClass("active");
+    $("#upgradeTab").removeClass("active");
+    $("#inventoryTab").removeClass("active");
+    $("#caseTab").removeClass("active");
+    $("#keyTab").removeClass("active");
+    $(".upgradeContainer").hide();
+    $(".jackpotRightContainer").hide();
+    $(".inventoryContainer").hide();
+    $(".caseContainer").show();
+    $(".rightMain").css("bottom","135px");
+    //$(".tradeButtonContainer").show();
+    //if ($(".unboxing").css('display') !== 'block') {
+    //  $(".unboxing").show();
+    //  $(".jackpot").hide();
+    //}
+  }
+});
+
 $("#keyTab").click(function() {
   if ($(".caseContainer").css('display') == 'none') {
     $(this).toggleClass("active");
