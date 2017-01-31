@@ -646,6 +646,11 @@ var cases = {
         name: "USP-S | Torque",
         price: 0.24,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh8jkIbTWhG5C-8xnteXI8oTht1i1uRQ5fWDyd9LAdQ4_MgzQqVm7wey918TuupufynUw6Sd05C2MyRfmgBgfbuBxxavJa8F12Qc"
+      },
+      weap7: {
+        name: "★ Karambit | Fade",
+        price: 1000.00,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhscxbDDKJXSMo79TfqCCM318tqU9-iyLcHO1u6qtHPMrYkMIxLGsOBDqWEMFqu7x5sgvRZKsHY9iLu2HvvbmpbCRbrqGwa2LjQGA46XOw"
       }
     },
     restricted: {
